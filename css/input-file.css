@@ -1,0 +1,152 @@
+body {
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  color: #6f6767;
+}
+
+a {
+  color: #6f6767;
+}
+a:hover {
+  color: #17223f;
+  text-decoration: none;
+}
+a:focus {
+  outline: 0;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.custom-file-input-style-simple {
+  position: relative;
+}
+.custom-file-input-style-simple .custom-file-input-browse {
+  height: 45px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  cursor: pointer;
+}
+.custom-file-input-style-simple .form-control {
+  border-color: #dddddd;
+  border-radius: 0;
+  border-style: solid;
+  border-width: 1px;
+  line-height: 2;
+  padding: 6px 10px;
+  width: 100%;
+}
+.custom-file-input-style-simple .custom-file-browse {
+  background-color: #3bb6b6;
+  color: #ffffff;
+  padding: 11px 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.custom-file-input-style-circle {
+  position: relative;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+.custom-file-input-style-circle .custom-file-input-browse {
+  cursor: pointer;
+  height: 45px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 45px;
+  overflow: hidden;
+}
+.custom-file-input-style-circle .form-control {
+  border-color: #dce4ec;
+  border-radius: 0;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  line-height: 2;
+  padding: 6px 0;
+  transition: 0.3s linear all;
+  width: calc(100% - 65px);
+  background-color: #ffffff;
+}
+.custom-file-input-style-circle .form-control:focus {
+  box-shadow: 0 1px 0 0 #3bb6b6;
+}
+.custom-file-input-style-circle .custom-file-btn-wrap {
+  background-color: #3bb6b6;
+  border-radius: 50%;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  height: 45px;
+  line-height: 45px;
+  margin-right: 15px;
+  position: relative;
+  text-align: center;
+  width: 45px;
+  color: #ffffff;
+}
+.custom-file-input-style-circle.bg-linear-color .custom-file-btn-wrap {
+  background: linear-gradient(to right, #3bb6b6, #d8a9a9);
+}
+
+.custom-file-input-style-rounded {
+  position: relative;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+.custom-file-input-style-rounded .custom-file-input-browse {
+  cursor: pointer;
+  height: 45px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 150px;
+  overflow: hidden;
+}
+.custom-file-input-style-rounded .form-control {
+  border-color: #dce4ec;
+  border-radius: 0;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  line-height: 2;
+  padding: 6px 0;
+  transition: 0.3s linear all;
+  width: calc(100% - 150px);
+  background-color: #ffffff;
+}
+.custom-file-input-style-rounded .form-control:focus {
+  box-shadow: 0 1px 0 0 #3bb6b6;
+}
+.custom-file-input-style-rounded .custom-file-btn-wrap {
+  background-color: #3bb6b6;
+  border-radius: 40px;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  height: 45px;
+  line-height: 45px;
+  margin-right: 15px;
+  position: relative;
+  text-align: center;
+  width: 150px;
+}
+.custom-file-input-style-rounded.no-rounded .custom-file-btn-wrap {
+  border-radius: 0;
+}
+.custom-file-input-style-rounded.bg-linear-color .custom-file-btn-wrap {
+  background: linear-gradient(to right, #3bb6b6, #d8a9a9);
+}

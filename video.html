@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+
+		<!-- Page Title -->
+		<title>Template Generator</title>
+
+		<!-- Fonts and Material Icons -->
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700|Material+Icons" rel="stylesheet" type="text/css"/>
+		
+
+		<!-- Styles -->
+		<link href="css/slides.css" rel="stylesheet" type="text/css">
+
+		<!-- Custom Styles -->
+		<!--link href="css/custom.css" rel="stylesheet" type="text/css"-->
+
+		<!-- Scripts -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="js/plugins.js" type="text/javascript" name="plugins"></script>
+		<script src="js/slides.js" type="text/javascript" name="main-scripts"></script>
+
+		<!-- Custom Scripts -->
+		<!--script src="js/custom.js" type="text/javascript" name="custom-scripts"></script-->
+		 
+	</head>
+	<body class="slides animated">
+		
+
+<!-- Example background-video -->
+<!-- Default approach -->
+<section class="slide fade video">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+      
+        <div class="fix-12-12">
+          <h1 class="huge">Background video</h1>
+          <p>Poster image will be loaded on mobile.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="background">
+    <video poster="assets/img/themoonsmall.jpg" autoplay loop muted webkit-playsinline>
+      <source src="assets/video/moon-surface.mp4" type="video/mp4"/>
+      
+    </video>
+  </div>
+</section>
+
+<!-- Advanced approach: GIF Background on mobile -->
+<!-- <section class="slide fade video">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+
+        <div class="fix-10-12">
+          <h1>This background video will be animated on mobile devices as well because of a gif image that will be shown instead of a static poster.</h1>
+          <p>That approach will reduce a loading time for desktop devices.</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url('https://designmodo.com/wp-content/themes/designmodov2.1/custom-pages/slides/presentation/video/movie-cut.gif');">
+    <video poster="https://designmodo.com/wp-content/themes/designmodov2.1/custom-pages/slides/presentation/video/movie-cut.jpg" autoplay loop muted webkit-playsinline>
+      <source src="https://designmodo.com/wp-content/themes/designmodov2.1/custom-pages/slides/presentation/video/movie-cut.mp4" type="video/mp4"/>
+      <source src="https://designmodo.com/wp-content/themes/designmodov2.1/custom-pages/slides/presentation/video/movie-cut.webm" type="video/webm"/>
+      <source src="https://designmodo.com/wp-content/themes/designmodov2.1/custom-pages/slides/presentation/video/movie-cut.ogv" type="video/ogv"/>
+    </video>
+  </div>
+</section> -->
+
+<!-- Preloader -->
+<div class="loadingIcon"><svg class="loading-icon" id="loading-circle" viewBox="0 0 18 18"><circle class="circle" opacity=".1" stroke="#fff" stroke-width="2" stroke-miterlimit="10" cx="9" cy="9" r="8" fill="none"></circle><circle class="dash" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="1,100" cx="9" cy="9" r="8" fill="none"></circle></svg></div>
+					
+	</body>
+</html>
